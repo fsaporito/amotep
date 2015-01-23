@@ -8,13 +8,13 @@ void word_toggle (char *str, int n) {
 	
 	for (i=0; i<n; i++) { 
 		
-		if ( (str[i]>='A') && (str[i]<='Z') ) { 
+		if ( ( str[i] >= 'A' ) && ( str[i] <= 'Z' ) ) { 
 			
 			str[i] += 32; 
 		
 		} 
 		
-		if ( (str[i]>='a') && (str[i]<='z') ) { 
+		if ( ( str[i] >='a' ) && ( str[i] <= 'z' ) ) { 
 		
 			str[i] -= 32; 
 		

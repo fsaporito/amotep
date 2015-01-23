@@ -6,7 +6,7 @@ void spaces_underscore (char *str, int n) {
 
 	int i;
 	
-	for (i=0; i<n; i++) { 
+	for ( i = 0; i < n; i++) { 
 		
 		if (str[i] == ' ' ) { 
 		
