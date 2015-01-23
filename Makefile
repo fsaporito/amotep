@@ -50,7 +50,7 @@ all:
 	${CC} -o ${OUT}/${NAME}  ${SOURCE} ${HEADERS} ${CFLAGS}
 	
 clean:
-	-rm -f ${BIN}/${NAME}
+	-rm -f ${OUT}/${NAME}
 
 install:
 	install -s ${OUT}/${NAME} ${PREFIX}/bin
